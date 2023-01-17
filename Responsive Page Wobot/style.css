@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+body {
+    /* display: flex; */
+    height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+header {
+    margin-bottom: .5rem;
+}
+.container {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px; 
+    border-radius: 5px; 
+}
+.container h1 {
+    font-size: 1rem;
+}
+.container span {
+    font-size: .7rem;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width : 80%;
+    margin: auto;
+    margin: 1rem auto;
+}
+.form-group .form-input {
+    width: 100%;
+    font-size: .8rem;
+    padding: .2rem .1rem;
+}
+.form-group label {
+    font-size: .85rem;
+}
+.form-group .selection-buttons {
+    display: flex;
+    gap: 1rem;
+}
+.form-group .selection-buttons button {
+    padding: .1rem .4rem;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+button.selected {
+    color: white;
+    background: #3766E8;
+}
+.submit-button {
+    padding: .3rem .5rem ;
+    margin: 1rem auto;
+    color: white;
+    background: #3766E8;
+    border-radius: 5px;
+    width: 80%;
+}
+footer {
+    text-align: center;
+    color: gray;
+    margin: 1rem auto;
+}
+.location-values {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
